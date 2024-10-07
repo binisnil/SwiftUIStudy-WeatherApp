@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		054308DA2CB3E0E4001861F1 /* WeatherTimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054308D92CB3E0E4001861F1 /* WeatherTimelineView.swift */; };
+		054308DC2CB3E549001861F1 /* WeatherTimelineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054308DB2CB3E549001861F1 /* WeatherTimelineCell.swift */; };
 		0593F6F92CA14C3100FFAD82 /* WeatherClone_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0593F6F82CA14C3100FFAD82 /* WeatherClone_SwiftUIApp.swift */; };
 		0593F6FB2CA14C3100FFAD82 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0593F6FA2CA14C3100FFAD82 /* MainView.swift */; };
 		0593F6FD2CA14C3400FFAD82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0593F6FC2CA14C3400FFAD82 /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		054308D92CB3E0E4001861F1 /* WeatherTimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTimelineView.swift; sourceTree = "<group>"; };
+		054308DB2CB3E549001861F1 /* WeatherTimelineCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTimelineCell.swift; sourceTree = "<group>"; };
 		0593F6F52CA14C3100FFAD82 /* WeatherClone-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WeatherClone-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0593F6F82CA14C3100FFAD82 /* WeatherClone_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherClone_SwiftUIApp.swift; sourceTree = "<group>"; };
 		0593F6FA2CA14C3100FFAD82 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -55,12 +59,14 @@
 		0593F6F72CA14C3100FFAD82 /* WeatherClone-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				0593F6FE2CA14C3400FFAD82 /* Preview Content */,
 				0593F6F82CA14C3100FFAD82 /* WeatherClone_SwiftUIApp.swift */,
 				0593F6FA2CA14C3100FFAD82 /* MainView.swift */,
 				0593F6FC2CA14C3400FFAD82 /* Assets.xcassets */,
-				0593F6FE2CA14C3400FFAD82 /* Preview Content */,
 				0593F7062CA17A6800FFAD82 /* WeatherView.swift */,
 				0593F7082CA1858B00FFAD82 /* BottomTabView.swift */,
+				054308D92CB3E0E4001861F1 /* WeatherTimelineView.swift */,
+				054308DB2CB3E549001861F1 /* WeatherTimelineCell.swift */,
 			);
 			path = "WeatherClone-SwiftUI";
 			sourceTree = "<group>";
@@ -145,6 +151,8 @@
 			files = (
 				0593F6FB2CA14C3100FFAD82 /* MainView.swift in Sources */,
 				0593F7092CA1858B00FFAD82 /* BottomTabView.swift in Sources */,
+				054308DA2CB3E0E4001861F1 /* WeatherTimelineView.swift in Sources */,
+				054308DC2CB3E549001861F1 /* WeatherTimelineCell.swift in Sources */,
 				0593F7072CA17A6900FFAD82 /* WeatherView.swift in Sources */,
 				0593F6F92CA14C3100FFAD82 /* WeatherClone_SwiftUIApp.swift in Sources */,
 			);
