@@ -14,7 +14,9 @@ enum Tab {
 }
 
 struct BottomTabView: View {
+    
     @Binding var selectedTab: Tab
+    
     var body: some View {
         VStack {
             Divider()
@@ -27,7 +29,7 @@ struct BottomTabView: View {
                     Image(systemName: "map")
                         .resizable()
                         .foregroundStyle(.white)
-                        .frame(width: 27, height: 25)
+                        .frame(width: 25, height: 23)
 
                 }
                 .padding(.leading, 20)
@@ -54,7 +56,7 @@ struct BottomTabView: View {
                     Image(systemName: "list.bullet")
                         .resizable()
                         .foregroundColor(.white)
-                        .frame(width: 26, height: 25)
+                        .frame(width: 20, height: 19)
 
                 }
                 .padding(.trailing, 20)
