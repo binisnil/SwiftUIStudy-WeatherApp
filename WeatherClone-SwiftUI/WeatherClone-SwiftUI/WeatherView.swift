@@ -17,12 +17,14 @@ struct WeatherView: View {
             ScrollView {
                 TopWeatherView()
                 WeatherTimelineView()
-                    .background(Color.clear)
+                    
+                    .background(Color(hex: 0xFFFFFF, alpha: 0.03))
                     .overlay(
                         RoundedRectangle(cornerRadius: 15)
                             .stroke(.gray.opacity(0.25), lineWidth: 0.5)
                     )
                     .frame(height: 212)
+                    .cornerRadius(15)
                     .padding(.horizontal, 20)
             }
         }
