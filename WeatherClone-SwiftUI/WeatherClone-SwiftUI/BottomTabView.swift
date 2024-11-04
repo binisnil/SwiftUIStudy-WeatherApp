@@ -63,7 +63,7 @@ struct BottomTabView: View {
 
             }
             .background(Color.clear)
-            .frame(width: UIScreen.main.bounds.width, height: 78)
+            .frame(width: UIScreen.main.bounds.width, height: 50)
         }
     }
 }

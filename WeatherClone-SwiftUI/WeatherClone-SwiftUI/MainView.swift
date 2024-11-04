@@ -12,11 +12,10 @@ struct MainView: View {
     @State private var tabStatus: Tab = .main
 
     var body: some View {
-            ZStack {
+        VStack(spacing: 0) {
                 WeatherView()
                 BottomTabView(selectedTab: $tabStatus)
-                    .background(Color.clear)
-                    .offset(x: 0, y: (UIScreen.main.bounds.height / 2) - 60)
+                    .background(Color(hex: 0x2A3040))
         }
     }
 }
