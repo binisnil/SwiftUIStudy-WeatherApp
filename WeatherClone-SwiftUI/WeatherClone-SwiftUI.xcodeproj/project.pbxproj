@@ -59,6 +59,35 @@
 			path = Timeline;
 			sourceTree = "<group>";
 		};
+		058106412CD9FA6E007B2717 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				058106432CD9FB72007B2717 /* TopWeatherSummary */,
+				058106422CD9FAF5007B2717 /* TabBar */,
+				05CF4A6B2CD77CC800C7AE74 /* WeeklyWeather */,
+				054308E42CB404C2001861F1 /* Timeline */,
+				0593F6FA2CA14C3100FFAD82 /* MainView.swift */,
+				0593F7062CA17A6800FFAD82 /* WeatherView.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		058106422CD9FAF5007B2717 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				0593F7082CA1858B00FFAD82 /* BottomTabView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		058106432CD9FB72007B2717 /* TopWeatherSummary */ = {
+			isa = PBXGroup;
+			children = (
+				054308DD2CB40059001861F1 /* TopWeatherView.swift */,
+			);
+			path = TopWeatherSummary;
+			sourceTree = "<group>";
+		};
 		0593F6EC2CA14C3100FFAD82 = {
 			isa = PBXGroup;
 			children = (
@@ -78,16 +107,11 @@
 		0593F6F72CA14C3100FFAD82 /* WeatherClone-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				05CF4A702CD7857300C7AE74 /* Extension */,
-				05CF4A6B2CD77CC800C7AE74 /* WeeklyWeather */,
-				054308E42CB404C2001861F1 /* Timeline */,
 				0593F6FE2CA14C3400FFAD82 /* Preview Content */,
+				058106412CD9FA6E007B2717 /* Presentation */,
+				05CF4A702CD7857300C7AE74 /* Extension */,
 				0593F6F82CA14C3100FFAD82 /* WeatherClone_SwiftUIApp.swift */,
-				0593F6FA2CA14C3100FFAD82 /* MainView.swift */,
 				0593F6FC2CA14C3400FFAD82 /* Assets.xcassets */,
-				0593F7062CA17A6800FFAD82 /* WeatherView.swift */,
-				0593F7082CA1858B00FFAD82 /* BottomTabView.swift */,
-				054308DD2CB40059001861F1 /* TopWeatherView.swift */,
 			);
 			path = "WeatherClone-SwiftUI";
 			sourceTree = "<group>";
